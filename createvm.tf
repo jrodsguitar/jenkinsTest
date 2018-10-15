@@ -1,31 +1,3 @@
-variable "subscription_id" {
-  type    = "string"
-  default = "value"
-}
-variable "client_id" {
-  type    = "string"
-  default = "value"
-}
-variable "client_secret" {
-  type    = "string"
-  default = "value"
-}
-variable "tenant_id" {
-  type    = "string"
-  default = "value"
-}
-
-variable "localadmin_s" {
- type    = "string"
-  default = "value"
-}
-
-variable "localadmin_n" {
- type    = "string"
-  default = "value"
-}
-
-
 provider "azurerm" {
   subscription_id            = "${var.subscription_id}"
   client_id                  = "${var.client_id}"
